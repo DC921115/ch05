@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <title>探索</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/content.css">
+    <link rel="stylesheet" type="text/css" href="lib/easyui/easyui.css">
+    <link rel="stylesheet" type="text/css" href="lib/easyui/icon.css">
+    <script type="text/javascript" src="lib/js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="lib/easyui/jquery.easyui.min.js"></script>
+</head>
+<body>
+<div class="content">
+    <nav>
+        <ul>
+            <li class="nav-item">
+                <img src="images/home-n.png" class="nav-icon">
+            </li>
+            <li class="nav-item">
+                <img src="images/personal.png" class="nav-icon">
+            </li>
+            <li class="nav-item">
+                <img src="images/search-none.png" class="nav-icon">
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <button class="header-btn">登陆</button>
+        <button class="header-btn">注册</button>
+        <img alt="" src="./images/timg.jpg" class="header-icon">
+        <img alt="" src="images/msg-n.png" class="header-msg">
+    </header>
+    <iframe class="yzy-content" src="index.html"></iframe>
+</div>
+<script type="text/javascript">
+    $('.nav-item').mouseenter(function () {
+        $(this).css({'background-color':'#000000'});
+    }).mouseleave(function () {
+        $(this).css({'background-color':'#282828'});
+    });
+</script>
+</body>
+</html>

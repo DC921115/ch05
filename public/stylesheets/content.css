@@ -1,0 +1,48 @@
+
+*{
+    padding: 0;margin: 0;
+}
+
+body{
+    min-width: 1368px;
+    min-height: 768px;
+}
+
+nav{
+    padding-top: 50px;
+    position: fixed;left: 0;top: 0;min-width: 80px;
+    height: 105%;
+    background-color: #282828;
+}
+
+.nav-icon{
+    width: 50px;height: 50px;
+    margin: 10px;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+header{
+    position: fixed;right: 80px;
+    top: 10px;display: flex;flex-direction: row-reverse;
+}
+.header-icon{
+    width: 60px;height: 60px;
+}
+.header-btn{
+    height: 40px;width: 60px;margin: 15px 5px;background-color: rgba(255,255,255,0);
+    border: 1px solid #F1907F; border-radius: 5px;font-size: 16px;
+}
+.header-msg{
+    width: 40px;height: 40px;margin: 15px;
+}
+
+.yzy-content{
+    width:94%;height:100%;
+    border: none;
+    position: absolute;
+    left: 80px;
+    top: 80px;
+}
